@@ -1,0 +1,106 @@
+.container {
+    width: 80%;
+    margin: 50px 100px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.restaurants-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.restaurant-name {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-name a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    height: 25px;
+}
+
+.marker {
+    width: 30px;
+    height: 30px;
+}
+
+.tooltip {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    border-radius: 10px;
+    padding-left: 7px;
+    margin: 0;
+    font-size: 13px
+}
+
+.about {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about p {
+    width: 700px
+}
+
+.about textarea {
+    width: 600px;
+    height: 150px;
+}
+
+.button {
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
